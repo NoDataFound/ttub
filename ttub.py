@@ -81,7 +81,7 @@ if "has_pushed_button" not in st.session_state:
 hacked_count = len(ledger)
 
 
-st.markdown("## 🚨 Unban TikTok Form")
+st.info("Unban TikTok Form")
 with st.form("unban_form"):
     username = st.text_input("Enter your TikTok username", placeholder="@yourusername")
     submitted = st.form_submit_button("Unban TikTok")
